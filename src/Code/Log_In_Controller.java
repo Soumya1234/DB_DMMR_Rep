@@ -32,8 +32,8 @@ public class Log_In_Controller implements Initializable{
     private void handleOkButtonEvent (ActionEvent event)
     {
      try 
-     {
-    	 if(root_user.getText().length()==0 || root_password.getText().length()==0)
+     {   
+    	 if(root_user.getText().length()==0 || root_password.getText().length()==0) /* Checks to see if all Fields are filled*/
     	 {
     		 throw new BlankFieldError("Please enter Log In Credentials properly");
      	 }

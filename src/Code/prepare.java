@@ -7,7 +7,7 @@ import java.sql.Statement;
 import Support.Messages;
 
 public class prepare 
-{
+{  /** This execute() function creates the Back-end Database and associated tables ready for use by the DMMR client **/
    public static void execute(Connection con) throws SQLException
    {
 	    Statement myStat;
